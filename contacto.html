@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/462cdba514.js" crossorigin="anonymous"></script>
+    <title>Trapipets</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="listas">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="sobre nosotros.html">NOSOTROS</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#productos">PRODUCTOS </a></li>
+        </ul>
+    </nav>
+    <header class="contacto">
+        <div class="presupuesto">
+            <h2>CONTACTO</h2>
+            <p>Para contactarse con nosotros y/o pedir un presupuesto complete el siguiente formulario:</p>
+        </div>
+    </header>
+    <main class="form">
+        <form action="" method="post" class="formulario" name="formulario">
+            <div class="grupo1" class="f-nombre">
+                <label for="nombre" class="label">Nombre:</label>
+                <div class="form-input">
+                    <input type="text" name="nombre" placeholder="Ana Maria" class="input">
+                </div>
+            </div>
+
+
+            <div class="grupo2" class="f-apellido">
+                <label for="apellido" class="label">Apellido:</label>
+                <div class="form-input">
+                    <input type="text" name="apellido" placeholder="Perez" class="input">
+                </div>
+            </div>
+
+
+            <div class="grupo1" class="f-mail">
+                <label for="mail" class="label">Mail: </label>
+                <div class="form-input">
+                    <input type="email" name="mail" placeholder="anamariaperez@gmail.com" class="input">
+                </div>
+            </div>
+
+
+            <div class="grupo2" class="f-telefono">
+                <label for="telefono" class="label">Telefono: </label>
+                <div class="form-input">
+                    <input type="text" name="telefono" placeholder="46585685" class="input">
+                </div>
+            </div>
+
+            <div class="grupo1">
+                <label for="productos" class="label">Productos</label>
+                <div class="form-input">
+                    <select name="productos" class="input">
+                        <option value="articulos">articulos</option>
+                        <option value="alf1">101</option>
+                        <option value="alf2">102</option>
+                        <option value="alf3">103</option>
+                        <option value="alf4">104</option>
+                        <option value="alf5">105</option>
+                        <option value="alf6">106</option>
+                        <option value="alf7">107</option>
+                        <option value="alf8">108</option>
+                        <option value="cas1">201</option>
+                        <option value="cas2">202</option>
+                        <option value="cas3">203</option>
+                        <option value="cas4">204</option>
+                        <option value="cas5">205</option>
+                        <option value="cas6">206</option>
+                        <option value="cas7">207</option>
+                        <option value="cas8">208</option>
+                        <option value="cuc1">301</option>
+                        <option value="cuc2">302</option>
+                        <option value="cuc3">303</option>
+                        <option value="cuc4">304</option>
+                        <option value="cuc5">305</option>
+                        <option value="cuc6">306</option>
+                        <option value="cuc7">307</option>
+                        <option value="cuc8">308</option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="grupo2">
+                <label for="pagos" class="label"> Metodo de pago:</label>
+                <div class="form-pago">
+                    <input type="radio" name="pago" value="efectivo" class="radio">Efectivo
+                    <input type="radio" name="pago" value="credito" class="radio">Tarjeta Credito
+                    <input type="radio" name="pago" value="debito" class="radio">Tarjeta Debito
+                </div>
+            </div>
+
+            <div class="grupo-textarea">
+                <label for="comentarios" class="label">Comentarios</label>
+                <textarea name="comentarios" placeholder="comentarios o sugerencias" class="textarea"></textarea>
+            </div>
+
+            <div class="grupo-promo">
+                <div class="form-input2">
+                    <input type="checkbox" name="promociones" value="promociones" class="checkbox">¿Desea recibir
+                    nuestras promociones por mail?
+                </div>
+            </div>
+
+
+            <div class="grupo-enviar" class="form-enviar">
+                <input type="submit" value="Enviar" class="btn">
+
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i>></a></li>
+        </ul>
+        <h4>derechos reservados 2022</h4>
+    </footer>
+    <script src="/JS/javascript.js"></script>
+
+</body>
+
+</html>

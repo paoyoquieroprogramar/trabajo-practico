@@ -1,0 +1,434 @@
+@media only screen and (max-width: 600px) {
+    .nav {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .listas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .li a {
+        font-size: .5rem;
+
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 0%;
+        justify-content: center
+    }
+
+    .footer h4 {
+        font-size: 1rem;
+    }
+
+    .header {
+        height: 60vh;
+        display: grid;
+        grid-template-rows: 2fr, 1fr;
+        justify-content: center;
+    }
+
+    .titulo {
+        grid-row: 2;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo h1 {
+        font-size: 7rem;
+    }
+
+    .logo {
+        grid-row: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .logo img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px;
+        border: 3px solid #2c3e50;
+        border-radius: 10%;
+        justify-content: center;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .capa {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(26, 188, 156, .7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transform: scale(0);
+        transition: .3s ease;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .box:hover .capa {
+        transform: scale(1);
+    }
+
+    .capa h3 {
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid white;
+        border-radius: 10%;
+        padding: 3rem;
+        color: white;
+    }
+
+    /*PAGINA CONTACTO RESPONSIVE MAX-600PX*/
+    .presupuesto h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .presupuesto p {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .presupuesto {
+        row-gap: .5rem;
+    }
+
+    .formulario {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input {
+        width: 70%;
+
+    }
+
+    .grupo1,
+    .grupo2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border: none;
+    }
+
+    .form-pago {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .grupo-promo {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .grupo-enviar {
+        margin-top: 2rem;
+    }
+
+    .form-input2 {
+        width: 80%;
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*PAGINA SOBRE NOSOTROS RESPONSIVE MAX-600PX*/
+
+    .sobreNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descripcion p {
+        font-size: 1.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2c3e50;
+        text-align: center;
+
+    }
+
+    .sobreNosotros h2 {
+        font-size: 2.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2c3e50;
+        text-align: center;
+    }
+
+    .ubicacion {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tabla {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    /* PAGINAS DE LAS ALFOMBRAS,CASITAS Y CUCHITAS*/
+
+
+    .parrafo {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .parrafo p {
+        font-size: 2rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .titulo2 h1 {
+        font-size: 5rem;
+    }
+
+    .container {
+        row-gap: 1rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenido {
+        width: 200px;
+        height: 300px;
+    }
+
+    .articulo h3 {
+        padding: 4rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 996px) {
+    .nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: auto;
+    }
+
+    .listas {
+        width: 100%;
+    }
+
+    /*PAGINA INICIO*/
+    .header {
+        height: 75vh;
+        display: grid;
+        grid-template-rows: 2fr, 1fr;
+        justify-content: center;
+    }
+
+    .titulo h1 {
+        font-size: 8rem;
+        color: #2c3e50;
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+    }
+
+    .logo img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+    }
+
+    .box {
+        width: 200px;
+        height: 300px;
+    }
+
+    .capa h3 {
+        padding: 4rem 1rem;
+    }
+
+    /* PAGINAS DE LAS ALFOMBRAS,CASITAS Y CUCHITAS*/
+
+    .titulo2 h1 {
+        font-size: 5rem;
+    }
+
+    .parrafo {
+        border: 3px solid #2c3e50;
+        width: 80%;
+        height: auto;
+    }
+
+    .parrafo p {
+        font-size: 2rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+
+    }
+
+    .contenido {
+        width: 200px;
+        height: 300px;
+
+    }
+
+    .articulo h3 {
+        padding: 4rem 1rem;
+    }
+
+    /*PAGINA SOBRE NOSOTROS*/
+
+    .sobreNosotros {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-areas:
+            "s1 s1 s1"
+            "s2 s2 s2"
+            "s3 s3 s3";
+    }
+
+    .descripcion {
+
+        grid-area: s1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descripcion p {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .sobreNosotros h2 {
+        font-size: 2rem;
+    }
+
+    .tabla {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .ubicacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*PAGINA CONTACTO*/
+    .presupuesto p {
+        font-size: 1.7rem;
+        padding: 2rem 1rem;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .form-pago {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.7rem;
+    }
+
+}
+
+@media only screen and (min-width: 997px) and (max-width: 1423px) {
+
+    /* PAGINAS DE LAS ALFOMBRAS,CASITAS Y CUCHITAS*/
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+    }
+
+    /*PAGINA CONTACTO*/
+    .form-pago {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.7rem;
+    }
+
+}
