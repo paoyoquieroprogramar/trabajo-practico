@@ -526,7 +526,7 @@ td {
     align-items: center;
 }
 
-.btn {
+#btn {
     width: 30%;
     height: 4.5rem;
     font-size: 2rem;
